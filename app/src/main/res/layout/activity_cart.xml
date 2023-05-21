@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <ImageView
+        android:id="@+id/product_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="尚未完成此頁面"
+        android:textSize="26sp"
+        android:layout_toRightOf="@+id/product_img"
+        />
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="$"
+        android:layout_below="@+id/product_name"
+        android:layout_toRightOf="@+id/product_img"
+        android:textSize="24dp"
+        />
+    <TextView
+        android:id="@+id/product_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="number"
+        android:layout_below="@+id/product_price"
+        android:layout_toRightOf="@+id/product_img"
+        android:textSize="24dp"
+        />
+/>
+</RelativeLayout>
